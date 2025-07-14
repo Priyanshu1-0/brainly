@@ -22,8 +22,10 @@ const bcrypt_1 = __importDefault(require("bcrypt"));
 const db_1 = require("./db");
 const config_1 = require("./config");
 const middleware_1 = require("./middleware");
+const cors_1 = __importDefault(require("cors"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
+app.use((0, cors_1.default)());
 mongoose_1.default.connect(process.env.MONGODB_URL)
     .then(() => console.log("Connected to Brainly database"))
     .catch((err) => console.error("MongoDB connection error:", err));

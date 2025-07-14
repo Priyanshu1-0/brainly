@@ -8,10 +8,12 @@ import bcrypt, { hash } from "bcrypt";
 import { ContentModel, UserModel, LinkModel } from "./db";
 import {JWT_SECRET} from "./config";
 import { userMiddleware } from "./middleware";
+import cors from "cors";
 
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 mongoose.connect(process.env.MONGODB_URL!)
   .then(() => console.log("Connected to Brainly database"))
