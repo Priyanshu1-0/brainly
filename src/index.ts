@@ -176,7 +176,7 @@ app.get("/api/v1/brain/:shareLink", async (req,res)=>{
         
         const transformedContent = content.map(item => ({
             id: item._id,
-            type: "link", 
+            type: item.type, 
             link: item.link,
             title: item.title,
             tags: item.tags || []

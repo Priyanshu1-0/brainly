@@ -171,7 +171,7 @@ app.get("/api/v1/brain/:shareLink", (req, res) => __awaiter(void 0, void 0, void
         const content = yield db_1.ContentModel.find({ userId: linkRecord.userId });
         const transformedContent = content.map(item => ({
             id: item._id,
-            type: "link",
+            type: item.type,
             link: item.link,
             title: item.title,
             tags: item.tags || []
