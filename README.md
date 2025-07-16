@@ -2,6 +2,12 @@
 
 A robust Node.js backend API for the Brainly social content aggregation platform. Built with Express.js, TypeScript, and MongoDB.
 
+## 🔗 Links
+
+- **Live Website**: [Live Website](https://brainly-fe-v2.vercel.app/)
+- **Backend Repository**: [Brainly Frontend](https://github.com/Priyanshu1-0/brainly-fe-v2)
+
+
 ## 🗄️ Database Schema
 
 ![Database Schema](./docs/images/backend-schema.png)
