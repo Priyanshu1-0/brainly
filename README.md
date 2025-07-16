@@ -5,7 +5,7 @@ A robust Node.js backend API for the Brainly social content aggregation platform
 ## 🔗 Links
 
 - **Live Website**: [Live Website](https://brainly-fe-v2.vercel.app/)
-- **Backend Repository**: [Brainly Frontend](https://github.com/Priyanshu1-0/brainly-fe-v2)
+- **Frontend Repository**: [Brainly Frontend](https://github.com/Priyanshu1-0/brainly-fe-v2)
 
 
 ## 🗄️ Database Schema
